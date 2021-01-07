@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap&subset=latin-ext');
+
+@font-face {
+  font-family: afterglow;
+  src: url("../../static/fonts/Afterglow-Regular.ttf") format('truetype');
+}
+
+.worksans {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.worksans--light {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.worksans--bold {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.worksans--black {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.afterglow {
+  font-family: afterglow, Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.primary {
+  font-family: "ws", Arial, Helvetica, sans-serif;
+}
+
+.accent {
+  font-family: afterglow;
+}

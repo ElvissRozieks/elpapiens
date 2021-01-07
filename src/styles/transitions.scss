@@ -1,0 +1,14 @@
+$speed--def: 0.35s;
+$speed--slow: 0.75s;
+$speed--fast: 0.20s;
+
+.transition-all--default {
+    transition: all $speed--def ease;
+}
+.transition-bg--default {
+    transition: background-color $speed--def ease;
+}
+
+.transition {
+    transition: all $speed--def ease;
+}

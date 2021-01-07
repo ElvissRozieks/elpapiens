@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="shop.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1890"
+     inkscape:window-height="1053"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-123.66102"
+     inkscape:cy="256"
+     inkscape:window-x="30"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#0f7f40;}</style>
+  </defs>
+  <title
+     id="title6">veikals</title>
+  <path
+     class="cls-1"
+     d="M 88.076109,68.065938 V 228.30363 a 62.896551,62.896551 0 0 0 7.00877,28.89489 V 443.93406 H 416.91512 V 257.19852 a 62.896551,62.896551 0 0 0 7.00877,-28.89489 V 68.065938 Z M 214.70297,90.082337 h 82.59406 V 198.80948 H 214.70297 V 90.108392 Z m 0,130.769593 h 82.59406 v 7.4517 a 41.297033,41.297033 0 0 1 -82.59406,0 z M 110.09251,90.108392 h 82.59406 V 198.83553 h -82.59406 z m 0,130.769588 h 82.59406 v 7.45171 a 41.297032,41.297032 0 0 1 -82.59406,0 z M 394.89872,421.91767 H 322.57029 V 324.34203 H 189.42971 v 97.54958 h -72.32843 v -140.4099 a 63.209211,63.209211 0 0 0 86.60652,-17.66524 63.26132,63.26132 0 0 0 104.61046,0 63.209211,63.209211 0 0 0 86.60651,17.56101 v 140.40991 z m 7.00877,-193.58798 a 41.297033,41.297033 0 0 1 -82.59406,0 v -7.45171 h 82.59406 z m 0,-29.46811 H 319.31343 V 90.108392 h 82.59406 V 198.83553 Z"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="fill:#0f7f40;stroke-width:2.60549092" />
+</svg>

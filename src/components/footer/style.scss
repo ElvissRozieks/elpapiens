@@ -1,0 +1,49 @@
+footer {
+    .social-network-link {
+        min-width: 30px !important;
+        max-width: 30px;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .shops {
+        font-size: 0.8em;
+        line-height: 1;
+        max-width: 80%;
+        flex-direction: column;
+        justify-content: center;
+
+        .flex {
+            padding: 0 10vw;
+        }
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+    footer {
+        .shops {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+            .flex {
+                flex-basis: 50%;
+                max-width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    footer {
+        max-height: 500px !important;
+        .shops {
+            flex-direction: row;
+
+            .flex {
+                padding: 0;
+            }
+        }
+    }
+}

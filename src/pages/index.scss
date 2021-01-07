@@ -1,0 +1,71 @@
+@import "../styles/fonts.scss";
+@import "../styles/colors.scss";
+
+.landing-section {
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+
+    .bg, .bg.gatsby-image-wrapper {
+        position: fixed !important;
+        z-index: -1;
+        opacity: 0.5;
+        height: 100vh;
+        width: auto;
+        max-width: none;
+    }
+
+    .landing-heading {
+        font-size: 3rem;
+    }
+
+    .hint {
+        position: absolute;
+        bottom: 10%;
+
+        img {
+            animation: float 3s infinite;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .landing-section {
+        min-height: 100vh;
+        height: 100vh;
+    
+        .bg {
+            position: fixed;
+            z-index: -1;
+            opacity: 0.5;
+            height: auto;
+            width: 100% !important;
+        }
+    
+        .landing-heading {
+            font-size: 5.5rem;
+        }
+    
+        .hint {
+            position: absolute;
+            bottom: 10%;
+    
+            img {
+                animation: float 3s infinite;
+            }
+        }
+    }
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
