@@ -7,7 +7,6 @@ import Footer from "../components/footer/footer"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import "../pages/products.scss"
-
 const ProductPage = ({data}) => {
 
 let produkti = data.allDirectusProdukti.edges;
@@ -48,10 +47,21 @@ return (
 
         <div className="flex flex-column mt4 product-details-middle">
             <div className="col-12 lg-col-7">
-                <h2 className="ttu worksans mb2 h3 green">Sastāvdaļas</h2>
-                <p>
-                  {produkts.sastavdalas}
-                </p>
+                <div class="single_item">
+                    <h2 className="ttu worksans mb2 h3 green">Sastāvdaļas</h2>
+                    <p>
+                      {produkts.sastavdalas}
+                    </p>
+                </div>
+
+                { produkts.nesatur &&
+                    <div class="single_item">
+                        <h2 className="ttu worksans mb2 h3 green">Nesatur</h2>
+                        <p>
+                            {produkts.nesatur}
+                        </p>
+                    </div>
+                }
             </div>
             <div className="col-12 lg-col-5 mt4">
                 <h2 className="ttu worksans mb2 h3 green">Uzturvielu tabula</h2>
@@ -107,7 +117,7 @@ return (
               <a className="green tdn worksans bold block tac pt4" href="/produkti">☷ Skatīt visus Elpa produktus</a>
         </div>
 
-        
+
 
     </div>
 
@@ -127,6 +137,7 @@ export const pageQuery = graphql`
       kategorija
       apraksts,
       sastavdalas,
+      nesatur,
       uzturvielas {
         energetiska
         tauki
