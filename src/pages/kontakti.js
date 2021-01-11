@@ -20,7 +20,7 @@ const ContactsPage = () => (
                     Bērzu gatve 4, Kazdangas pag. <br/>
                     Aizputes novads, LV-3457 <br/>
                     Tālr: 63448367, Mob tālr: 29135940 <br/>
-                    epasts: rivars@siaelpa.lv
+                    epasts: info@siaelpa.lv
                 </p>
             </div>
         </div>
