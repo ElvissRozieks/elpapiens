@@ -160,10 +160,10 @@ return (
           </p>
         </div>
 
-        {/* Jogurts */}
+        {/* Sporteri */}
          <div className="mb4 pt4" id="sporters">
           <h2 className="ttu afterglow container-heading-1 mb4 green">ELPA Sporteri!</h2>
-          <p></p>
+          <p>Piešķil atpakaļ uguntiņu savai sportiskajai enerģijai ar SPORTERU! </p>
           <p>
             {sporters}
           </p>
