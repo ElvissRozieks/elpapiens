@@ -88,6 +88,23 @@
         transition-duration: 0.5s;
         filter: grayscale(100%) brightness(500%);
     }
+
+    .fill-button-icon {
+        a{
+            .fill-button-icon {
+                img {
+                    filter: none !important;
+                }
+            }
+        }
+    }
+
+    .fill-button {
+        a{
+            background-color: #fff;
+            color:$color-green !important;
+        }
+    }
 }
 
 .main-navbar {

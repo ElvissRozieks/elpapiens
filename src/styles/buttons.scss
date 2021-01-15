@@ -3,12 +3,12 @@
 .fill-button {
     a{
         display: inline-block;
-        padding: 1em 3em;
+        padding: .8em 2em;
         background-color: $color-green;
         border-radius: 5px;
         text-decoration: none;
         font-family: arial;
-        font-size: .9em;
+        font-size: .8em;
         opacity: 1;
         transition: all .5s ease;
         -webkit-transition: all .5s ease;
@@ -43,7 +43,8 @@
         .fill-button-icon {
             margin-right: .5em;
             img {
-                width: 32px;
+                width: 26px;
+                filter: grayscale(100%) brightness(500%);
                 margin: 0;
                 vertical-align: middle;
             }
