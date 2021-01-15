@@ -1,1 +1,77 @@
 @import "../styles/colors.scss";
+
+.fill-button {
+    a{
+        display: inline-block;
+        padding: 1em 3em;
+        background-color: $color-green;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: arial;
+        font-size: .9em;
+        opacity: 1;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        .fill-button-text {
+            span {
+                vertical-align: middle;
+            }
+        }
+
+        &:hover {
+            opacity: .5;
+        }
+            @media screen and (max-width: 768px) {
+                justify-content: center;
+                border-radius: 0px;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.fill-button-icon {
+    a{
+        display: flex;
+
+        .fill-button-icon {
+            margin-right: .5em;
+            img {
+                width: 32px;
+                margin: 0;
+                vertical-align: middle;
+            }
+        }
+
+    }
+}
+
+.button-capital {
+    a{
+        text-transform: uppercase;
+    }
+}
+
+.button-margin{
+    margin-right: 2em;
+}
+
+.button-flex {
+    flex: 1;
+    text-align: right;
+
+    .button-holder {
+        display: inline-block;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+
+    }
+}

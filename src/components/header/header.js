@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import logo from "../../images/logo.svg"
-
+import buttonArrow from "../../images/arrow.svg"
 import "./style.scss"
 
 
@@ -19,6 +19,19 @@ class Header extends React.Component {
         <>
         <header className={this.state.navbarOpen ? "main-header main-header--inverse" : "main-header"}>
           <Link to="/"><img src={logo} alt="" /></Link>
+
+          <div className="fill-button fill-button-icon button-capital button-margin button-flex ">
+            <div className="button-holder">
+                <a target="_blank" href="https://pienselpa.lv/" className="fill-button-inner white">
+                    <div className="fill-button-icon">
+                        <img src={buttonArrow} alt="button" />
+                    </div>
+                    <div className="fill-button-text">
+                        <span>iepirkties tagad</span>
+                    </div>
+                </a>
+            </div>
+          </div>
 
           <div role="button" className="burger" onClick={this.toggle.bind(this)} onKeyDown={this.toggle.bind(this)} tabIndex={0}>
             <span></span>

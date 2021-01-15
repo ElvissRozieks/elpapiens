@@ -7,7 +7,7 @@
     z-index: 120;
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,11 @@
                 margin: 6px 0;
             }
         }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        padding-top: 40px !important;
     }
 
 }
@@ -95,7 +100,7 @@
     transition: opacity 0.5s ease;
     pointer-events: all;
     z-index: 100;
-    
+
     .dash {
         display: inline-block;
         width: 50px;
@@ -103,7 +108,7 @@
         background-color: white;
         transition-duration: 0.25s;
     }
-    
+
     a {
         display: flex;
         align-items: center;
@@ -147,12 +152,12 @@
 }
 
 @media screen and(min-width: 768px) {
-    
+
     .main-header {
         padding: 0 65px;
     }
 
-    
+
     .main-navbar {
         top: 0;
         width: 100%;
@@ -163,7 +168,7 @@
         transition: opacity 0.5s ease;
         pointer-events: all;
         z-index: 100;
-        
+
         .dash {
             display: inline-block;
             width: 50px;
@@ -171,7 +176,7 @@
             background-color: white;
             transition-duration: 0.25s;
         }
-        
+
         a {
             display: flex;
             align-items: center;
@@ -180,13 +185,13 @@
             line-height: 1.5;
             opacity: 1;
         }
-    
+
         .a--hidden {
             opacity: 0;
             height: 0;
             pointer-events: none;
         }
-    
+
         .language {
             font-weight: 800;
             line-height: 1.5;
@@ -195,7 +200,7 @@
         .language--inactive {
             font-weight: 100;
             opacity: 0.7;
-    
+
             a {
                 all: unset;
             }
@@ -205,14 +210,14 @@
             }
         }
     }
-    
+
     .main-navbar--hidden {
         opacity: 0;
         z-index: -10;
         pointer-events: none;
         transition: opacity 0.5s ease;
     }
-    
+
     .main-navbar a:hover {
         .dash {
             width: 80px;
