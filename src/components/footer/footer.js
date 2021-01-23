@@ -17,7 +17,7 @@ class Footer extends React.Component {
               Kazdangas p., Aizputes n.</p>
               <div className="flex">
                 <a className="mx1 flex justify-center" href="https://www.facebook.com/siaelpa/" target="_blank" rel="noopener noreferrer"><img alt="Facebook logo" className="block o9 social-network-link transition" src={facebook} /></a>
-                <a className="mx1 flex justify-center" href="https://www.instagram.com/elpa_sia/" target="_blank" rel="noopener noreferrer"><img alt="Instagram logo" className="block o9 social-network-link transition" src={instagram} /></a>
+                <a className="mx1 flex justify-center" href="https://www.instagram.com/elpasia/" target="_blank" rel="noopener noreferrer"><img alt="Instagram logo" className="block o9 social-network-link transition" src={instagram} /></a>
               </div>
               <div className="flex shops py3">
                 <div className="flex items-center">
