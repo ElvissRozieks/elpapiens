@@ -116,7 +116,7 @@ return (
     <div id="iaw" className="iaw iaw--exit"></div>
 
     <div id="mini-navbar" className="mini-navbar flex flex-column worksans">
-      <a href="#siers"><span></span> Siers</a>
+      <a href="#siers"><span></span>  Kazdangas sieri</a>
       <a href="#kefirs"><span></span> Kefīrs</a>
       <a href="#piens"><span></span> Piens</a>
        <a href="#sporters"><span></span> Sporters</a>
@@ -129,9 +129,9 @@ return (
 
         {/* Siers */}
         <div className="mb4" id="siers">
-          <h2 className="ttu afterglow container-heading-1 mb4 green">Mūsu <br/> garšīgie <br/> sieri</h2>
+          <h2 className="ttu afterglow container-heading-1 mb4 green">Mūsu <br/> garšīgie <br/> Kazdangas sieri </h2>
           <p>
-            ELPA mīkstie sieri ir mūsu meistarstiķis. Atšķirīgi un īpaši – konkurentu tiem nav. Sev tīkamāko garšu atradīs ikviens. Piedāvājam sierus ar ķimenēm, ar ķiplokiem, dillēm, pētersīļiem un selerijām. Izvēlējies?
+            ELPA mīkstie kazdangas sieri ir mūsu meistarstiķis. Atšķirīgi un īpaši – konkurentu tiem nav. Sev tīkamāko garšu atradīs ikviens. Piedāvājam sierus ar ķimenēm, ar ķiplokiem, dillēm, pētersīļiem un selerijām. Izvēlējies?
           </p>
           <p>
             {siers}
